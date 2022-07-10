@@ -135,6 +135,7 @@
 
     this._element = document.createElement('div');
     this._element.classList.add('editorjs-codeFlask_Wrapper')
+    this._element.classList.add('not-prose')
     let editorElem = document.createElement('div');
     editorElem.classList.add('editorjs-codeFlask_Editor')
     let langdisplay = document.createElement('div');
